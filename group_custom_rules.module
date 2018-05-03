@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains group_custom_rules.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function group_custom_rules_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the group_custom_rules module.
+    case 'help.page.group_custom_rules':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Enables custom Rules Events, Conditions &amp; Actions for the Group Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}

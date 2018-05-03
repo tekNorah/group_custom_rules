@@ -1,0 +1,14 @@
+{
+  "name": "drupal/group_custom_rules",
+  "type": "drupal-module",
+  "description": "Enables custom Rules Events, Conditions & Actions for the Group Module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/group_custom_rules",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/group_custom_rules",
+    "source": "http://cgit.drupalcode.org/group_custom_rules"
+  },
+  "require": { }
+}

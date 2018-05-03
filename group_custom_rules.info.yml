@@ -1,0 +1,7 @@
+name: Group Custom Rules
+type: module
+description: Enables custom Rules Events, Conditions & Actions for the Group Module
+core: 8.x
+package: Custom
+dependencies:
+  - group
